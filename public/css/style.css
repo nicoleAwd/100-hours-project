@@ -1,0 +1,73 @@
+/*body {
+background: #E8F3FF;
+}
+.btn {
+  background: rgb(139, 196, 255);
+  color: #1b1b1b;
+  border-color: rgb(139, 196, 255);
+  }
+
+
+  .btn:hover {
+  background: rgb(125, 176, 230);
+  color: #1b1b1b;
+  border-color: rgb(125, 176, 230);;
+  } 
+
+.love:hover {
+  background-color: orange;
+    color: #1b1b1b;
+  border-color: orange;
+}
+
+  .erase:hover {
+  background-color: orangered;
+  color: white;
+  border-color: orangered;
+ }*/
+
+
+.btn {
+  background: orangered;
+  color: white;
+  border-color: orangered;
+  }
+
+.btn:hover{
+  background: white;
+  color: orangered;
+  border-color: orangered;
+  }
+
+.love {
+  background-color: orange;
+  color: white;
+  border-color: orange;
+}
+
+.love:hover {
+  background-color: white;
+  color: orange;
+  border-color: orange;
+}
+
+.erase {
+  background-color: black;
+  color: white;
+  border-color: black;
+ }
+
+ .erase:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+ }
+
+
+
+.btn:focus-visible, .love:focus-visible, .erase:focus-visible {
+    outline: 2px solid #2E58FF;
+    background-color: white;
+    color: #2E58FF ;
+}
+ 
