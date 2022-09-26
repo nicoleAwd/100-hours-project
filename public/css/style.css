@@ -26,43 +26,51 @@ background: #E8F3FF;
   border-color: orangered;
  }*/
 
+body {
+background: whitesmoke;
+font-family: 'Fraunces', serif;
+color: black;
+}
+
  .display-2 a {
   color: orangered;
+  text-decoration: none;
+  font-weight: 800;
  }
 
 
 .btn {
   background: orangered;
-  color: white;
+  color: whitesmoke;
   border-color: orangered;
   }
 
 .btn:hover{
-  background: white;
+  background: whitesmoke;
   color: orangered;
   border-color: orangered;
   }
 
 .love {
-  background-color: orange;
-  color: white;
-  border-color: orange;
+  background: whitesmoke;
+  color: orange;
+  border-color: whitesmoke;
 }
 
 .love:hover {
-  background-color: white;
+  background: whitesmoke;
   color: orange;
   border-color: orange;
 }
 
 .erase {
-  background-color: black;
-  color: white;
-  border-color: black;
+  background: whitesmoke;
+  color: black;
+  border-color: whitesmoke;
  }
 
  .erase:hover {
-  background-color: white;
+  background-color: whitesmoke;
   color: black;
   border-color: black;
  }
