@@ -26,6 +26,10 @@ background: #E8F3FF;
   border-color: orangered;
  }*/
 
+ .display-2 a {
+  color: orangered;
+ }
+
 
 .btn {
   background: orangered;
