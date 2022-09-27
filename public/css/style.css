@@ -82,4 +82,8 @@ color: black;
     background-color: white;
     color: #2E58FF ;
 }
- 
+
+.logo-header {
+  width: 10%;
+  margin-top: 2%;
+}
