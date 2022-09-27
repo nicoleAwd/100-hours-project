@@ -17,6 +17,15 @@ const PostSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+    //CHEESE
+    //ingredients: {
+    //type: String,
+    //required: true,
+  //},
+    flavor: {
+    type: String,
+    required: true,
+  },
   likes: {
     type: Number,
     required: true,

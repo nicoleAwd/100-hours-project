@@ -2,7 +2,7 @@
 <div class="container">
   <div class="row justify-content-center mt-5">
     <div class="col-6">
-      <h2><%= post.title %></h2>
+      <h1><%= post.title %></h1>
       <img class="img-fluid" src="<%= post.image%>" />
       <div class="row justify-content-between">
         <form
@@ -10,7 +10,7 @@
           action="/post/likePost/<%= post.id %>?_method=PUT"
           method="POST"
         >
-          <button class="btn btn-primary fa fa-heart love" type="submit"></button>
+          <button class="btn btn-primary btn-lg fa fa-heart love" type="submit"></button>
         </form>
         <h3 class="col-3">Likes: <%= post.likes %></h3>
         <%if(post.user == user.id){ %>
@@ -19,14 +19,18 @@
           method="POST"
           class="col-3"
         >
-          <button class="btn btn-primary fa fa-trash erase" type="submit"></button>
+          <button class="btn btn-dark btn-lg fa fa-trash erase" type="submit"></button>
         </form>
         <%}%>
       </div>
     </div>
     <div class="col-3 mt-5">
-      <p><%= post.caption %></p>
+      <p>Directions: <%= post.caption %></p>
     </div>
+    <!--CHEESE FLAVOR-->
+    <div class="col-3 mt-5">
+      <p>Primary Cheese: <%= post.flavor %></p>
+    </div>    
     <div class="mt-5">
             <h2>Add a Review</h2>
             <form action="/review/createReview/<%=post._id%>" method="POST">
@@ -46,7 +50,7 @@
           action="/review/deleteReview/<%= post.id %>/<%= reviews[i]._id %>?_method=DELETE"
           method="POST"
         >        
-          <button class="btn btn-dark fa fa-trash erase" type="submit"></button>
+          <button class="btn btn-dark btn-lg fa fa-trash erase" type="submit"></button>
         </form>
         <%}%>                   
         </li>        
