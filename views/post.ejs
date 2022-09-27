@@ -25,12 +25,14 @@
       </div>
     </div>
     <div class="col-3 mt-5">
-      <p>Directions: <%= post.caption %></p>
-    </div>
-    <!--CHEESE FLAVOR-->
-    <div class="col-3 mt-5">
       <p>Primary Cheese: <%= post.flavor %></p>
-    </div>    
+    </div>
+    <div class="col-3 mt-5">
+      <p>Ingredients: <%= post.ingredient %></p>
+    </div>
+    <div class="col-3 mt-5">
+      <p>Directions: <%= post.caption %></p>
+    </div>       
     <div class="mt-5">
             <h2>Add a Review</h2>
             <form action="/review/createReview/<%=post._id%>" method="POST">
